@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#2196F3"
+        android:textAlignment="center"
+        android:text="Profile" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="15sp"
+        android:textSize="20dp"
+        android:textColor="#113DC5"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="15sp"
+        android:textSize="20dp"
+        android:textColor="#113DC5"
+        android:text="" />
+
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginTop="15sp"
+        android:textSize="20dp"
+        android:textColor="#113DC5"
+        android:text="Email" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginTop="15sp"
+        android:textSize="20dp"
+        android:textColor="#113DC5"
+        android:text="" />
+
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="15sp"
+        android:textSize="20dp"
+        android:text="Phone No"
+        android:hint="Phone No"
+        android:textColor="#113DC5"
+        android:inputType="phone" />
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="15sp"
+        android:textSize="20dp"
+        android:text=" "
+        android:hint="Phone No"
+        android:textColor="#113DC5"
+        android:inputType="phone" />
+
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="15sp"
+        android:textSize="20dp"
+        android:text="Age"
+        android:textColor="#113DC5"
+        android:inputType="number" />
+    <TextView
+        android:id="@+id/tvAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="15sp"
+        android:textSize="20dp"
+        android:text=""
+        android:textColor="#113DC5"
+        android:inputType="number" />
+
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="15sp"
+        android:textSize="20dp"
+        android:text="Height(cm)"
+        android:textColor="#113DC5"
+        android:inputType="number" />
+    <TextView
+        android:id="@+id/tvHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="15sp"
+        android:textSize="20dp"
+        android:text=""
+        android:textColor="#113DC5"
+        android:inputType="number" />
+
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="15sp"
+        android:textSize="20dp"
+        android:text="Weight(kg)"
+        android:textColor="#113DC5"
+        android:inputType="number" />
+    <TextView
+        android:id="@+id/tvWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="15sp"
+        android:textSize="20dp"
+        android:text=""
+        android:textColor="#113DC5"
+        android:inputType="number" />
+
+
+
+    <Button
+        android:id="@+id/btnShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:textSize="20dp"
+        android:textColor="#113DC5"
+        android:text="SHOW" />
+
+
+
+
+</LinearLayout>

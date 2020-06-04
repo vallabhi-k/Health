@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#2196F3"
+        android:textAlignment="center"
+        android:text="Register" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginTop="10sp"
+        android:textSize="25dp"
+        android:textColor="#113DC5"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginTop="10sp"
+        android:textSize="25dp"
+        android:textColor="#113DC5"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10sp"
+        android:textSize="25dp"
+        android:hint="Phone No"
+        android:textColor="#113DC5"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/etAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10sp"
+        android:textSize="25dp"
+        android:hint="Age"
+        android:textColor="#113DC5"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10sp"
+        android:textSize="25dp"
+        android:hint="Height(m)"
+        android:textColor="#113DC5"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10sp"
+        android:textSize="25dp"
+        android:hint="Weight(kg)"
+        android:textColor="#113DC5"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:textSize="25dp"
+        android:textColor="#113DC5"
+        android:text="Gender" />
+
+    <RadioGroup
+        android:id="@+id/rdGender"
+        android:layout_width="match_parent"
+        android:layout_height="79dp">
+
+        <RadioButton
+            android:id="@+id/rdGenderMale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#113DC5"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/rdGenderFemale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#113DC5"
+            android:text="Female" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#113DC5"
+        android:text="Save" />
+
+
+</LinearLayout>
